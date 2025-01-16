@@ -1,10 +1,38 @@
-# Smart_Fleet_Management_System
-Welcome to the Smart Fleet Management System repository! This project aims to provide an intelligent solution for managing a fleet of vehicles, tracking their status, maintenance schedules, and optimizing operations. The system is divided into two main parts: the frontend and the backend.
+# Smart Fleet Management System
 
-Project Structure
+Welcome to the **Smart Fleet Management System** repository!  
+This project aims to provide an intelligent solution for managing a fleet of vehicles, tracking their status, maintaining schedules, and optimizing operations.
+
+The system is divided into two main parts: **Frontend** and **Backend**.
+
+---
+
+## Project Structure
+
 The project is organized into two sub-folders:
 
-Frontend - Located in the /Frontend folder
-Built using HTML, CSS, and JavaScript, this part of the system provides a user-friendly interface to manage and monitor the fleet. It includes features for viewing vehicle status, scheduling maintenance, and managing fleet operations.
-Backend - Located in the /Backend folder
-Developed in Python, the backend is responsible for generating sample data, handling data processing, storage, and providing the necessary APIs for the frontend to interact with. It uses an SQLite database to store information about the fleet, vehicles, maintenance schedules, and more.
+### **Frontend**
+- **Location**: `/Frontend`
+- **Description**: Built using **HTML**, **CSS**, and **JavaScript**, the frontend provides a user-friendly interface for fleet management and monitoring. 
+- **Key Features**:
+  - Viewing vehicle status.
+  - Scheduling maintenance tasks.
+  - Managing fleet operations.
+
+---
+
+### **Backend**
+- **Location**: `/Backend`
+- **Description**: Developed in **Python**, the backend is responsible for:
+  - Generating sample data.
+  - Handling data processing and storage.
+  - Providing APIs for the frontend to interact with.
+- **Database**: Uses an **SQLite** database to store:
+  - Fleet information.
+  - Vehicle details.
+  - Maintenance schedules.
+
+---
+
+## Getting Started
+
