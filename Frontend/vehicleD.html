@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard using HTML CSS and JAVASCRIPT</title>
+    <!--MATERIAL SYMBOLS-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="./stylemain.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./images/logo.jpeg">
+                    <h2>FLEET <span class="danger">XPERT</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+            
+                
+                <a href="#">
+                    <span class="material-symbols-outlined">problem</span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">Settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="index.html">
+                    <span class="material-symbols-outlined">Logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+            
+            
+        </aside>
+        <!----------END OF ASIDE-------------->
+        <main>
+            <h1>Dashboard_Vehicle D</h1>
+
+            <div class="VehicleData">
+                <div class="Fuel_Level">
+                    <span class="material-symbols-outlined">oil_barrel</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Fuel Level</h3>
+                            <h1 id="fuel_level">0L</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36" ></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------END OF FUEL LEVEL------------>
+                <div class="Speed">
+                    <span class="material-symbols-outlined">Speed</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Speed</h3>
+                            <h1 id="speed_level">0 Mph</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36" ></circle>
+                            </svg>
+                            <div class="number">
+                                <p>60 Mph</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------END OF SPEED------------>
+                <div class="Engine_Temp">
+                    <span class="material-symbols-outlined">device_thermostat</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Engine Temp</h3>
+                            <h1 id="temperature">0°C</h1>
+                        </div>
+                    </div>
+                </div>
+                <!----------END OF ENGINE TEMP------------>
+                <div class="Engine_Status">
+                    <span class="material-symbols-outlined">power_settings_new</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Engine Status</h3>
+                            <h1 id="engine_status">Off</h1>
+                        </div>
+                    </div>
+                </div>
+                <!----------END OF ENGINE STATUS------------>
+                <div class="Engine_Rating">
+                    <span class="material-symbols-outlined">star_half</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Engine Rating</h3>
+                            <h1 id="engine_rating">Excellent</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36" ></circle>
+                            </svg>
+                            <div class="number">
+                                <p>94%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------END OF ENGINE RATING------------>
+                <div class="Driver_Info">
+                    <span class="material-symbols-outlined">Info</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Driver Info</h3>
+                            <h1>Driver D</h1>
+                        </div>
+                    </div>
+                </div>
+                <!----------END OF DRIVER INFO------------>
+            </div>
+        </main>
+        <!--------------END OF MAIN------------->
+
+        <div class="right">
+            <div class="top">
+                
+                <div class="theme-toggler">
+                    <span class="material-symbols-outlined light_mode">light_mode</span>
+                    <span class="material-symbols-outlined dark_mode">dark_mode</span>
+                </div>
+                
+               
+                <div class="profile">
+                    <div class="info">
+                        <p>Hello, <b>Sonko</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/profile1" >
+                    </div>
+                </div>
+            </div>
+            <!-------------END OF TOP----------->
+
+            <div class="history">
+
+                <div class="item">
+                    <div class="header">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">warning</span>
+                        </div>
+                        <h3>Alerts</h3>
+                    </div>
+                    <div class="content">
+                        <p id="fuel_alerts">0 fuel alerts</p>
+                    </div>
+                </div>
+                <!-- History button -->
+                <div class="history-button">
+                    <a href="historyVD.html">
+                        <span class="material-symbols-outlined">History</span>
+                        <h3>History</h3>
+                    </a>
+                </div>
+            </div>
+            
+            <!-------------END OF ALERTS----------->
+        </div>
+    </div>
+
+    <script src="./indexD.js"></script>
+</body>
+</html>

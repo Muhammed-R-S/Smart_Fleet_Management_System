@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Data</title>
+    <!-- Add link to CSS stylesheet -->
+    <link rel="stylesheet" href="history.css">
+    <!-- Link to Material Icons stylesheet -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Separate div for button container -->
+        <div class="button-container">
+            <button id="refresh-btn" class="btn refresh-btn"><span class="material-icons">refresh</span> Refresh</button>
+            <button id="clear-btn" class="btn clear-btn"><span class="material-icons">clear</span> Clear Data</button>
+            <h2>Vehicle A Historic</h2>
+        </div>
+
+        <!-- Separate div for data table -->
+        <div class="data-table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Timestamp</th>
+                        <th>Fuel Level (L)</th>
+                        <th>Speed (Km/h)</th>
+                        <th>Temperature (°C)</th>
+                        <th>Fuel Alerts</th>
+                    </tr>
+                </thead>
+                <tbody id="historical-data-body">
+                    <!-- Historical data rows will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    
+    <!-- Add script tag to include JavaScript for handling button actions -->
+    <script src="historyVA.js"></script>
+</body>
+</html>
